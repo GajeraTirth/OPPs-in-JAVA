@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MiniBank — Java OOP Semester Project
 
 A console-based banking application built with Java 17+ and Maven. The source is split into proper packages and includes the concepts from Practical 1–14: records, enums, encapsulation, inheritance, polymorphism, interfaces, regex validation, parsing, annotations/reflection, checked exceptions, synchronized account operations, executor threads, file persistence, NIO reporting, collections, generics, and JUnit tests.
@@ -62,3 +63,6 @@ Tests cover deposit balance changes, rejected withdrawals, and concurrent deposi
 - P14: `BankService`, connected menu, persistence, report and JUnit tests
 
 The deliberately broken race-condition and deadlock examples are not run in the banking application because they are intentionally unsafe. `AccountWorker` supports the concurrent-deposit practical, `TransactionBuffer<T>` demonstrates producer-consumer `wait()`/`notifyAll()`, and `Account.transfer()` locks accounts in account-number order to avoid deadlock.
+=======
+# OPPs-in-JAVA
+>>>>>>> 05bdff2e9d03a40ec93a5e1067524d8a5894d9ef
